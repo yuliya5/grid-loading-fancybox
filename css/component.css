@@ -1,10 +1,3 @@
-/*.grid-wrap {
-	clear: both;
-	margin: 0 auto;
-	padding: 0;
-	max-width: 1260px;
-}*/
-
 .grid {
 	margin: 30px auto;
 	padding: 0;
@@ -12,30 +5,10 @@
 	min-height: 500px;
 }
 
-/*.js .grid {
-	background: url(../img/loading.gif) no-repeat 50% 100px;
-}*/
-
-/*.js .grid.loaded {
-	background: none;
-}*/
-
 .grid li {
-	/*display: inline-block;*/
-	/*overflow: hidden;*/
 	width: 314px;
-	/*text-align: left;*/
-	/*vertical-align: top;*/
 }
 
-/*.js .grid li {
-	display: none;
-	float: left;
-}*/
-
-/*.js .grid.loaded li {
-	display: block;
-}*/
 
 /* Title box (Developed By Yuliya)*/
 .title-box h2 {
@@ -61,14 +34,12 @@
 .grid li > a,
 .grid li img {
 	display: block;
-	/*outline: none;
-	border: none;*/
 }
 
 .grid li > a {
 	position: relative;
 	overflow: hidden;
-	margin: 7px;
+	margin: 8px;
 }
 
 /* Curtain element */
