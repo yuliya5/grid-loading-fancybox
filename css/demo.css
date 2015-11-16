@@ -1,0 +1,51 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #D3EEE2;
+    color: #2E3444;
+    line-height: 1.25;
+    font-family: 'Lato', sans-serif;
+}
+
+/*Header*/
+a {
+    color: #FF2A48;
+    text-decoration: none;
+}
+
+.codrops-header {
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+}
+
+.codrops-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/*Samsung red-color word*/
+.codrops-header h1 span {
+    display: block;
+    padding: 0.2em 0 0.6em 0.1em;
+    font-size: 0.6em;
+    font-weight: 300;
+}
+
+
+/*
+.codrops-icon-drop:before {
+    content: "\e001";
+}
+
+.codrops-icon-prev:before {
+    content: "\e004";
+}*/
