@@ -7,12 +7,28 @@
 		<title>Grid Loading and Hover Effect | Demo 1</title>
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!-- Add jQuery library -->
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 		<!-- Add Modernizr -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 		<!-- Add Masonry -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
 		<!-- Add Imagesloaded -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.2.0/imagesloaded.pkgd.min.js"></script>
+		<!-- Add fancyBox -->
+		<link rel="stylesheet" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+
+
+		<!-- Fancybox Javascript -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+		    $(".fancybox").fancybox({
+		        openEffect  : 'none',
+		        closeEffect : 'none'
+		    });
+		});
+		</script>
 	</head>
 
 
@@ -24,20 +40,40 @@
 			</header>
 
 			<section class="grid-wrap">
-				<ul class="grid swipe-right" id="grid"> <!-- swipe-down and swipe-rotate look awesome, too -->
+				<ul class="grid swipe-right" id="grid"> <!-- swipe-down and swipe-rotate look awesome also -->
 					<li class="title-box">
 						<h2>Developed by <a>Yuliya</a></h2>
 					</li>
-					<li><a href="#"><img src="img/books.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/city.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/playground.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/train.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/Paris.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/birches.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/bus.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/busy_city.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/cars.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
-					<li><a href="#"><img src="img/food.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
+					<li><a class="fancybox" rel="gallery1" href="img/books_big.jpg">
+					<img src="img/books.jpg" alt="" />
+					<h3>A fantastic title</h3></a></li>
+					<li><a class="fancybox" rel="gallery1" href="img/city_big.jpg">
+					<img src="img/city.jpg" alt="" />
+					<h3>A fantastic title</h3></a></li>
+					<li><a class="fancybox" rel="gallery1" href="img/playground_big.jpg">
+					<img src="img/playground.jpg" alt="" />
+					<h3>A fantastic title</h3></a></li>
+					<li><a class="fancybox" rel="gallery1" href="img/train_big.jpg">
+					<img src="img/train.jpg" alt="" />
+					<h3>A fantastic title</h3></a></li>
+					<li><a class="fancybox" rel="gallery1" href="img/Paris_big.jpg">
+					<img src="img/Paris.jpg" alt="" />
+					<h3>A fantastic title</h3></a></li>
+					<li><a class="fancybox" rel="gallery1" href="img/birches_big.jpg">
+					<img src="img/birches.jpg" alt="" />
+					<h3>A fantastic title</h3></a></li>
+					<li><a class="fancybox" rel="gallery1" href="img/bus_big.jpg">
+					<img src="img/bus.jpg" alt="" />
+					<h3>A fantastic title</h3></a></li>
+					<li><a class="fancybox" rel="gallery1" href="img/busy_city_big.jpg">
+					<img src="img/busy_city.jpg" alt="" />
+					<h3>A fantastic title</h3></a></li>
+					<li><a class="fancybox" rel="gallery1" href="img/cars_big.jpg">
+					<img src="img/cars.jpg" alt="" />
+					<h3>A fantastic title</h3></a></li>
+					<li><a class="fancybox" rel="gallery1" href="img/food_big.jpg">
+					<img src="img/food.jpg" alt="" />
+					<h3>A fantastic title</h3></a></li>
 					<li><a href="#"><img src="img/moon.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
 					<li><a href="#"><img src="img/autumn.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
 					<li><a href="#"><img src="img/biking.jpg" alt="dummy"><h3>A fantastic title</h3></a></li>
