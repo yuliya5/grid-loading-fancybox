@@ -5,7 +5,7 @@ Fantastic images from a Japanese artist.
 
 Recreating the grid loading effect as seen on the Samsung Corporate Design Center website.
 
-[Demo](http://tympanus.net/Tutorials/SamsungGrid/)
+[Demo](http://design.samsung.com/global/)
 
 Click on any image to see an awesome fancybox gallery modal.
 
